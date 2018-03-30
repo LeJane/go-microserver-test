@@ -5,4 +5,4 @@ applications:
   name: lanziqi-go-microserver
   disk_quota: 1024M
   command:main.exe
-  buildpack:https://github.com/LeJane/go-microserver-test.git
+  buildpack:https://github.com/cloudfoundry/go-buildpack.git
