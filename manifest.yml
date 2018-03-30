@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 512MB
+  instances: 1
+  name: lanziqi-go-microserver
+  disk_quota: 1024M
+  command:main.exe
+  buildpack:https://github.com/LeJane/go-microserver-test.git
